@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -760,8 +760,9 @@
         confirmationMessage.innerHTML = `✅ ¡Información guardada exitosamente!<br>Tu ID es: <span class="highlight">${usuario}</span><br>Tu ling ya se genero correctamente, ya puedes compartirlo atu pareja o amiga ...<br><small>Tu información se guardará solo por 8 horas y luego se eliminará para mayor privacidad.</small>`;
         confirmationPanel.classList.add("open");
 
-        const linkHigh = `https://anthony-cup.github.io/sorpresa-de-universo/?id=${usuario}`;
-        const linkLow = `https://anthony-cup.github.io/sorpresa-universo-movil-/?id=${usuario}`;
+        
+        const linkHigh = `https://bermatmods.github.io/Espacio-BerMat/?id=${usuario}`;
+        const linkLow = `https://bermatmods.github.io/Espacio-BerMat-movil-/?id=${usuario}`;
         linkGeneradoHigh.value = linkHigh;
         linkGeneradoLow.value = linkLow;
         linkContainer.style.display = "block";
